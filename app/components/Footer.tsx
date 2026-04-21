@@ -7,7 +7,7 @@ import SubscriptionForm from "./SubscriptionForm";
 import Logo from "./Logo";
 
 const navLinks = [
-  { href: ".", label: "About us" },
+  { href: "/about", label: "About us" },
   { href: ".", label: "Services" },
   { href: ".", label: "Use Cases" },
   { href: ".", label: "Pricing" },
