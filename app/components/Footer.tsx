@@ -42,7 +42,7 @@ export default function Footer({ className }: { className?: string }) {
                 <Link
                   key={index}
                   href={href}
-                  className="[text-decoration-skip-ink:none] [text-underline-position:from-font] underline-offset-1 decoration-solid relative shrink-0"
+                  className="[text-decoration-skip-ink:none] [text-underline-position:from-font] underline-offset-1 decoration-solid relative shrink-0 transition-colors duration-200 hover:text-[#b9ff66] hover:decoration-[#b9ff66]"
                 >
                   {label}
                 </Link>
